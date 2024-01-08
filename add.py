@@ -5,7 +5,7 @@ st.header("Types of dogs")
 col1,col2=st.columns(2)
 with col1:
      st.subheader("Pomeranian")
-     st.image("./Pomeranian.jpg",caption="Pomeranian",width=300,use_column_width=True)
+     st.image("./pomeranian.jpg",caption="Pomeranian",width=300,use_column_width=True)
      st.write("Pomeranian are cute")
 with col2:
       st.subheader("GoldenRetriever")
